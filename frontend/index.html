@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taimour</title>
+</head>
+
+<body>
+    <h1> This is get request </h1>
+    <form action="http://localhost:3000/register" method="get">
+        <input type="text" placeholder="enter your name" name="user">
+        <input type="password" placeholder="enter passward" name="passward">
+        <button> sumit here!</button>
+    </form>
+    <h1> This is post request it hide confidential data</h1>
+    <form action="http://localhost:3000/register" method="post">
+        <input type="text" placeholder="enter your name" name="user">
+        <input type="password" placeholder="enter passward" name="passward">
+        <button> sumit here!</button>
+    </form>
+    <script src="app.js"></script>
+    <script src="factory.js"></script>
+</body>
+
+</html>
